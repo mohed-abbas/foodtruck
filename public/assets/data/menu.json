@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Margherita",
+    "description": "Tomate, mozzarella, basilic",
+    "price": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tacos",
+    "description": "Bœuf, salade, sauce maison",
+    "price": 8,
+    "image": "https://www.restalamaison.ch/images/detailed/12/tacos_euro_kebab_xzre-j6.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Salade César",
+    "description": "Poulet, croûtons, parmesan",
+    "price": 7.5,
+    "image": "https://www.cookomix.com/wp-content/uploads/2022/07/salade-cesar-thermomix.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Burger Classique",
+    "description": "Steak haché, cheddar, laitue, tomate",
+    "price": 9.5,
+    "image": "https://boutique.restaurantgambetta.fr/images/produits/2197/1736263056-1732032281-3757723-7c4020ccc47240138323b9bc5b730e8d.webp"
+  },
+  {
+    "id": 5,
+    "name": "Hot Dog",
+    "description": "Saucisse, pain moelleux, moutarde, ketchup",
+    "price": 6,
+    "image": "https://www.seriouseats.com/thmb/QJZXQHDXBfTiUSKstQ1uskJc31g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SEA-best-grilled-hot-dogs-recipe-hero-02-9d245c0d43874a3da13a7228682b0dce.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Burrito",
+    "description": "Tortilla, riz, haricots, bœuf épicé",
+    "price": 9,
+    "image": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-superJumbo.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Poke Bowl",
+    "description": "Saumon mariné, riz, légumes frais",
+    "price": 12,
+    "image": "https://cdn.pratico-pratiques.com/app/uploads/sites/3/2024/05/09135110/Poke-bowl-de-poulet-barbecue-a-l-hawaienne.jpg"
+  }
+]
