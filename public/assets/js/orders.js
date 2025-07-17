@@ -18,15 +18,22 @@ export async function submitOrder() {
 
   const progressBar = progressEl.querySelector("div > div");
 
-  // Simulate API request
   try {
-    // Fake progress updates
+    // Fake progress updates while request is being made
     for (let i = 0; i <= 100; i += 20) {
       progressBar.style.width = i + "%";
-      await new Promise((r) => setTimeout(r, 500)); // Wait half a second
+      await new Promise((r) => setTimeout(r, 100));
     }
 
-    // Simulate successful order
+    // Send cart items to the server
+    const items = Array.from(cart.values()).map((item) => ({ id: item.id, qty: item.qty }));
+    const res = await fetch("/orders", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ items }),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
     progressEl.innerHTML = `<p class="text-green-600 font-bold">Commande confirmée !</p>`;
 
     // Clear cart after successful order

@@ -9,7 +9,7 @@ export let menuData = []; // This will hold the menu data loaded from the JSON f
  * @throws {Error} If the fetch request fails.
  */
 export async function loadMenu() {
-  const res = await fetch("./assets/data/menu.json");
+  const res = await fetch("/menu");
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   menuData = await res.json();
 
